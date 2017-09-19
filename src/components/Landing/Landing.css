@@ -1,0 +1,19 @@
+.jumbotron {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-media {
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+img {
+    width: 90vw;
+    height: 800px;
+}
+i {
+    color:#A81619
+}

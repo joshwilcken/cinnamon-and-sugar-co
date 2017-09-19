@@ -1,0 +1,21 @@
+.header {
+    margin-top: .1px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #A81619;
+    border-bottom: 1px solid #A81619;
+}
+h4 {
+    font-family: arial;
+    font-weight: 100;
+    color: gray;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: color .5s
+}
+h4:hover {
+    color: #A81619;
+    cursor: pointer;
+}
