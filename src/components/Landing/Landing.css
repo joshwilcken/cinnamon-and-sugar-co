@@ -1,18 +1,24 @@
-.jumbotron {
+.landing {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .social-media {
     height: 50px;
-    width: 100vw;
+    width: 40vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-img {
+.jumbotron {
     width: 90vw;
-    height: 800px;
+    height: 600px;
+
+}
+.jumbotron img {
+    width: 100%;
+    height: auto;
 }
 i {
     color:#A81619

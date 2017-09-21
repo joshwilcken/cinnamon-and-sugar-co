@@ -1,6 +1,7 @@
 .header {
     margin-top: .1px;
-    width: 100vw;
+    width: 90vw;
+    margin: 0 auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -18,4 +19,11 @@ h4 {
 h4:hover {
     color: #A81619;
     cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+.header img {
+    width: 35px;
+    height: 35px;
 }
